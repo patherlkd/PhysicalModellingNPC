@@ -26,9 +26,9 @@ pair_coeff 1*3 5 lj/cut 250.0 0.62363 0.7
 pair_coeff 2 2 morse/smooth/linear 4.90319 6.0 1.02 2.04 # FG - FG cohesion
 pair_coeff 2 5 morse/smooth/linear 9.44633 6.0 0.7 1.4 # FG - NTR patch cohesion
 
-dump XyZ all xyz 10000 ./FSFG6_Rad3_nsites2_bl25_epp4.75_epc8.00_diapol1.02_diacol3_diapatch0.38_4apb_RUN1.xyz
+dump XyZ all xyz 10000 ./simulation_trajectory_analysis.xyz
 
-restart 10000 ./restart_continue_FSFG6_Rad3_nsites2_bl25_epp4.75_epc8.00_diapol1.02_diacol3_diapatch0.38_4apb_RUN1 ./restart_continue_FSFG6_Rad3_nsites2_bl25_epp4.75_epc8.00_diapol1.02_diacol3_diapatch0.38_4apb_RUN1
+restart 10000 ./restart_file ./restart_file
 
 reset_timestep 0
 
