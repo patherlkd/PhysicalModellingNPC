@@ -5,6 +5,8 @@ Example open source code for the single-molecule binding observables mentioned i
 
 Ensure you have the LAMMPS 2016 (or above) version when running these simulations https://lammps.sandia.gov/.
 
+Additionally, ensure that the morse pair potential is available through following the steps outlined in: https://lammps.sandia.gov/doc/pair_morse.html.
+
 The code included in this repository is for an F6A chain (with six cohesive blocks, in the 4 amino acids per bead (4apb) coarse graining) and a patchy-particle (NTF2) with two cohesive binding sites. 
 
 ### example_config.txt
