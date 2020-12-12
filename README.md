@@ -29,7 +29,7 @@ lmp_serial -in in.start_up_4apb
 
 ### in.resume_4apb
 
-This performs a much longer production simulation where the 'xyz' file contains the time trajectory of the all the bead coordinates.
+This performs a much longer production simulation where the 'xyz' file contains the time trajectory of the all the bead coordinates. Note: you must have successfully run in.start_up_4apb first.
 
 ```
 lmp_serial -in in.resume_4apb
