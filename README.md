@@ -1,5 +1,5 @@
 # PhysicalModellingNPC
-Open source code for 'Physical modelling of multivalent interactions in thenuclear pore complex':  https://doi.org/10.1101/2020.10.01.322156
+Example open source code for the single-molecule binding observables mentioned in 'Physical modelling of multivalent interactions in thenuclear pore complex':  https://doi.org/10.1101/2020.10.01.322156
 
 ## Running MD LAMMPS simulations
 
