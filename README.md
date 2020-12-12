@@ -3,7 +3,7 @@ Open source code for 'Physical modelling of multivalent interactions in thenucle
 
 ## Running MD LAMMPS simulations
 
-Ensure you have the LAMMPS 2016 (or above) version when running these simulations.
+Ensure you have the LAMMPS 2016 (or above) version when running these simulations https://lammps.sandia.gov/.
 
 The code included in this repository is for an F6A chain (with six cohesive blocks, in the 4 amino acids per bead (4apb) coarse graining) and a patchy-particle (NTF2) with two cohesive binding sites. 
 
@@ -15,9 +15,19 @@ This is a file containing the initial condition for the simulations.
 
 This performs an initial simulation to check the initial conditions. It outputs a restart file to be used for the production simulation.
 
+If you have a LAMMPS executable called lmp_serial then run this simulation on the command line as:
+
+```
+lmp_serial -in in.start_up_4apb
+```
+
 ### in.resume_4apb
 
 This performs a much longer production simulation where the 'xyz' file contains the time trajectory of the all the bead coordinates.
+
+```
+lmp_serial -in in.resume_4apb
+```
 
 ### do_kD.pl
 
