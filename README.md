@@ -11,6 +11,10 @@ The code included in this repository is for an F6A chain (with six cohesive bloc
 
 This is a file containing the initial condition for the simulations.
 
+(1) 30 particles belong to the F6A polymer.
+(2) 3 particles belong to the patchy particle.
+(3) They reside in a box (centered about the origin) with dimensions V = L^3 = 25^3.
+
 ### in.start_up_4apb
 
 This performs an initial simulation to check the initial conditions. It outputs a restart file to be used for the production simulation.
