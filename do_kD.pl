@@ -176,14 +176,12 @@ close($xyzfh);
 
 say $N1;
 
-my $gamma = $N1/$N0;
-
 my $V = ${bl}**3;
 
 my $Vd =(4/3)*pi*(2.0*(${cutoff})**3 + $Napb*$N_FG*(${cutoff})**3);
 #my $Vd =(4/3)*pi*($npatches*(${cutoff})**3 + $Napb*$N_FG*(${cutoff})**3); # uniform sphere
 
-my $kD = 10.0/(6.02214086*($V-$Vd)*$gamma);
+my $kD = (10.0*$N0)/(6.02214086*($V-$Vd)*$N1);
 
 open($kdout,'>',$kDfile) or die;
 
